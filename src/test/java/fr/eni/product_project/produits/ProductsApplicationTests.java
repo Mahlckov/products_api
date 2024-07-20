@@ -14,7 +14,7 @@ import fr.eni.product_project.produits.entities.Product;
 import fr.eni.product_project.produits.repositories.ProductRepository;
 
 @SpringBootTest
-class ProduitsApplicationTests {
+class ProductsApplicationTests {
 
 	@Autowired
 	private ProductRepository productRepository;
