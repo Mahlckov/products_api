@@ -19,7 +19,7 @@ import fr.eni.product_project.produits.services.ProductService;
  * @version
  */
 @RestController
-@RequestMapping("/api")
+@RequestMapping("")
 @CrossOrigin // permet à toutes les origines de consommer les services
 public class ProductRESTController {
 	@Autowired

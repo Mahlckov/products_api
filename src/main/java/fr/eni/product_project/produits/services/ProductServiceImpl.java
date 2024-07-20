@@ -170,14 +170,14 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	// Méthode pour convertir CategoryDTO en Category
-	private Category convertDtoToCategory(CategoryDTO categoryDTO) {
-		if (categoryDTO == null) {
-			return null;
-		}
-		Category category = new Category();
-		category.setIdCat(categoryDTO.getIdCat());
-		category.setCatName(categoryDTO.getCatName());
-		category.setCatDescription(categoryDTO.getCatDescription());
-		return category;
-	}
+//	private Category convertDtoToCategory(CategoryDTO categoryDTO) {
+//		if (categoryDTO == null) {
+//			return null;
+//		}
+//		Category category = new Category();
+//		category.setIdCat(categoryDTO.getIdCat());
+//		category.setCatName(categoryDTO.getCatName());
+//		category.setCatDescription(categoryDTO.getCatDescription());
+//		return category;
+//	}
 }
