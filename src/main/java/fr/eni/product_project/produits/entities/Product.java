@@ -42,6 +42,25 @@ public class Product {
 		this.productPrice = productPrice;
 		this.creationDate = creationDate;
 	}
+	
+	
+
+	/**
+	 * Constructeur
+	 * @param idProduct
+	 * @param productName
+	 * @param productPrice
+	 * @param creationDate
+	 * @param category
+	 */
+	public Product(Long idProduct, String productName, Double productPrice, Date creationDate, Category category) {
+		super();
+		this.idProduct = idProduct;
+		this.productName = productName;
+		this.productPrice = productPrice;
+		this.creationDate = creationDate;
+		this.category = category;
+	}
 
 	/**
 	 * Getter pour idProduct
