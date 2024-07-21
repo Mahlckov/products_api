@@ -20,11 +20,11 @@ public class ProductsApplication implements CommandLineRunner{
 		SpringApplication.run(ProductsApplication.class, args);
 	}
 	
-//	@Bean
-//	public ModelMapper modelMapper()
-//	{
-//		return new ModelMapper();
-//	}
+	@Bean
+	public ModelMapper modelMapper()
+	{
+		return new ModelMapper();
+	}
 
 	//exposer les id des objets
 	@Override
